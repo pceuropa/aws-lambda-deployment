@@ -1,0 +1,18 @@
+{
+    "FunctionName": "oooooooooo",
+    "FunctionArn": "arn:aws:lambda:eu-west-1:890769921003:function:oooooooooo",
+    "Runtime": "python3.6",
+    "Role": "arn:aws:iam::890769921003:role/functionStopAllec2WithoutOwner",
+    "Handler": "example.handler",
+    "CodeSize": 3116,
+    "Description": "Description",
+    "Timeout": 3,
+    "MemorySize": 128,
+    "LastModified": "2018-09-21T10:34:22.073+0000",
+    "CodeSha256": "v0BliGEsbb2wINlPffWUqgy5W0KGnbXur15e/ERCyhk=",
+    "Version": "$LATEST",
+    "TracingConfig": {
+        "Mode": "PassThrough"
+    },
+    "RevisionId": "d0ccc638-f0e4-4cb7-a6a3-20aa24671d47"
+}
