@@ -1,5 +1,5 @@
 # aws-lambda-deployment
-CRUD to AWS Lambda by Bash - simple way to deploy your code to lamba.
+CRUD deployment AWS Lambda in bash - fast way to deploy your code to AWS lamba.
 Zip reguirements package only work with virtualenv (python3)
 
 ## preparation
