@@ -4,12 +4,12 @@ Zip reguirements package only work with virtualenv (python3)
 
 ## preparation
 ```
-chmod 750 deploy-lambda.sh
+chmod 750 deploy-aws-lambda.sh
 ```
 
 ## Create
 ```
-./deploy.sh
+./deploy-aws-lambda.sh
 Action: [C]reate/[U]pdate/[R]ead/[D]elete? [c/r/u/d] c
 Start process creating lambda function...
 Zip requirements packages? [y/N] y
