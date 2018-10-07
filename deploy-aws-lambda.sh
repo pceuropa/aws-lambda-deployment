@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-export TESTMODE=1
 
 R='\e[31m'
 G='\e[32m'
