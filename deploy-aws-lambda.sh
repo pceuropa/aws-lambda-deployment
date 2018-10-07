@@ -9,7 +9,7 @@ NC='\033[0m' # No Color
 PYTHON_VER='3.7'
 region='ap-southeast-2'
 LAMBDA_RUNTIME='python3.6'
-LAMBDA_ROLE='arn:aws:iam::890769921003:role/functionStopAllec2WithoutOwner'
+LAMBDA_ROLE='arn:aws:iam::000000000000:role/role_name'
 
 echo region: $region
 
@@ -60,7 +60,7 @@ function update_function {
   response=${response}    # tolower
   if [[ "$response" =~ ^(yes|y)$ ]]
   then
-      cd venv/lib/python3.7/site-packages/
+      cd $VIRTUAL_ENV/lib/python$PYTHON_VER/site-packages/
       zip -r --quiet ../../../../project.zip *
       cd ../../../../
   fi
