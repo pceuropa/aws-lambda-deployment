@@ -1,9 +1,7 @@
 """
-File: example.py
+File: main.py
 Author: Rafal Marguzewicz
-Email: info@pceuropa.net
-Gitlab: https://gitlab.com/pceuropa/
-Description: Example python file to check available modules on Aws Lambda
+Description: Example python file to check available modules on AWS Lambda
 """
 
 # from __future__ import print_function
